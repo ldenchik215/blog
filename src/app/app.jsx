@@ -6,6 +6,7 @@ function App() {
   const a = false
   return (
     <>
+      <Outlet />
       <div>
         <Statistic
           value={1128}
@@ -23,7 +24,6 @@ function App() {
         </button>
         Home
       </div>
-      <Outlet />
     </>
   )
 }
