@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: ROUTES.ARTICLES,
-        lazy: () => import('../features/header/index'),
+        lazy: () => import('../features/articles/index'),
         HydrateFallback: () => null,
       },
       {
